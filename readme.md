@@ -55,14 +55,14 @@ Ensure that `glove.6B.300d.txt` is placed in the expected directory (or adjust t
 
 ## Running the Code
 
-### Training and Evaluation
+### Training and Evaluation for individual model
 
-The main script (`train_eval_predict.py`) can be run with command-line flags to train or evaluate the models.
+We have seperate scripts that can be run with command-line flags to train or evaluate the models.
 
 #### Train the Model:
 
 ```bash
-python train_eval_predict.py --train --use_glove --use_biobert --combined
+python 
 ```
 
 This command will:
@@ -75,7 +75,7 @@ This command will:
 #### Evaluate the Model:
 
 ```bash
-python train_eval_predict.py --eval --use_glove --use_biobert
+python 
 ```
 
 This command loads the saved model and evaluates its performance on the test dataset.
